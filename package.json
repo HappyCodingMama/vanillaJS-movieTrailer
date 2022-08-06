@@ -1,0 +1,15 @@
+{
+  "name": "vanillajs-movietrailer",
+  "version": "1.0.0",
+  "description": "- trailer\r - nav bar",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.19"
+  }
+}

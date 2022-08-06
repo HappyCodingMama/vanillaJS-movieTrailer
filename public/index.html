@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movieholic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Link Boxicons' CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="logo">
+      <a href="/">
+        <p>Movie<span>holic</span></p>
+      </a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <!-- menu -->
+      <ul class="navbar">
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="#search_form">Search</a></li>
+        <li><a href="#coming">Coming</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+
+      <a href="#" class="btn">Sign In</a>
+    </header>
+
+    <!-- Home -->
+    <section class="home swiper" id="home">
+      <div class="swiper-wrapper">
+        <!-- Box 1 -->
+        <div class="swiper-slide container">
+          <img src="img/John Wick4.jpg" alt="" />
+          <div class="home-text">
+            <span>Marvel Universe</span>
+            <h1>Venom: Let There <br />Be Carnage</h1>
+            <a href="#" class="btn">More Info</a>
+            <a href="#" class="play">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Box 2 -->
+        <div class="swiper-slide container">
+          <img src="img/Ms._Marvel.jpg" alt="" />
+          <div class="home-text">
+            <span>Spider Man</span>
+            <h1>Spider: Let There <br />Be Carnage</h1>
+            <a href="#" class="btn">More Info</a>
+            <a href="#" class="play">
+              <i class="bx bx-play"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- search bar -->
+    <div class="search-container" id="search_form">
+      <div class="search-element">
+        <form id="form">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search Movie Title"
+            id="search"
+          />
+        </form>
+      </div>
+    </div>
+
+    <!-- Movie list -->
+
+    <section class="popularcontainer">
+      <div class="popular-list">
+        <a class="popular_pre-btn"><i class="bx bx-chevron-left"></i></a>
+        <div id="popular" class="populargrid"></div>
+        <a class="popular_nxt-btn"><i class="bx bx-chevron-right"></i></a>
+      </div>
+    </section>
+
+    <section class="main">
+      <!-- <div class="movie-list">
+      <a class="pre-btn"><i class="bx bx-chevron-left"></i></a>
+      <h1 class="movie-category">Popular movie</h1>
+      <div class="movie-container">
+        <div class="movie">
+          <img src="img/Top_Gun_Maverick_Poster.jpg" alt="" />
+          <p class="movie-title">movie name</p>
+        </div>
+      </div>
+      <a class="nxt-btn"><i class="bx bx-chevron-right"></i></a>
+    </div> -->
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Link to custom JS -->
+
+    <script src="js/api.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/swipe.js"></script>
+  </body>
+</html>

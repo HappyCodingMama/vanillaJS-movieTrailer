@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movieholic</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+
+    <!-- Link Boxicons' CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="logo">
+      <a href="/">
+        <p>Movie<span>holic</span></p>
+      </a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <!-- menu -->
+      <ul class="navbar">
+        <li><a href="#home" class="home-active">Home</a></li>
+        <li><a href="/#search_form">Search</a></li>
+        <li><a href="#coming">Coming</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+
+      <a href="#" class="btn">Sign In</a>
+    </header>
+
+    <!-- movie info -->
+    <div class="movie-info">
+      <div class="movie-detail">
+        <h1 class="movie-name"></h1>
+        <p class="genres"></p>
+        <p class="des"></p>
+        <p class="starring"><span>Starring:</span></p>
+      </div>
+    </div>
+
+    <!-- video clips -->
+    <div class="trailer-container">
+      <h1 class="heading">Video Clip</h1>
+      <!-- <iframe
+        src=""
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe> -->
+    </div>
+
+    <!-- recommendations -->
+    <div class="recommendation">
+      <h1 class="heading">More Like This</h1>
+      <div class="recommendations-container">
+        <!-- <div class="movie">
+          <img src="img/Top_Gun_Maverick_Poster.jpg" alt="" />
+          <p class="movie-title">movie name</p>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/about.js"></script>
+  </body>
+</html>
